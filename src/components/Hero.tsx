@@ -62,6 +62,14 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-4 left-0 right-0 text-center">
+        <a 
+          href="/privacy-policy" 
+          className="text-sm text-gray-500 hover:text-coral transition-colors"
+        >
+          Privacy Policy
+        </a>
+      </div>
     </div>
   );
 };
